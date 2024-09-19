@@ -1,10 +1,18 @@
+<!-- templates/base.html -->
+
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    Hello world!
-  </body>
+<head>
+    <title>Menu Project</title>
+</head>
+<body>
+
+    <!-- Отображение меню -->
+    {% load menu %}
+    {% draw_menu 'main_menu' %}
+
+    <h1>Welcome to the site!</h1>
+
+</body>
 </html>
 
